@@ -1,0 +1,17 @@
+dist: trusty
+language: python
+python:
+  - "3.6"
+addons:
+  firefox: "89.0"
+before_install:
+  - wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz
+  - sudo tar -xzf geckodriver-v0.29.1-linux64.tar.gz -C /usr/bin
+  - sudo chmod a+x /usr/bin/geckodriver
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 5 # give xvfb some time to start
+install:
+  - make deps
+script:
+  - make test
