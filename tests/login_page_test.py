@@ -8,7 +8,7 @@ import time
 class LoginPageTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.get('https://www.saucedemo.com/')
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)
