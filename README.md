@@ -3,9 +3,9 @@ This simple project includes automation tests of the online demo shop: [<img sty
 
 The structure of the project was created with using **Selenium** and **Python**.  
 
-Tests are checking ordering process (e2e testing), and checking login credentials.  
+Tests are checking ordering process (e2e testing), and testing login credentials.  
 
-All tests are running on travis CI: [![Build Status](https://www.travis-ci.com/Bryg9/behave_python_demo_shop.svg?branch=master)](https://www.travis-ci.com/Bryg9/behave_python_demo_shop)
+All tests are running on travis CI: [![Travis (.com)](https://img.shields.io/travis/com/Bryg9/selenium_python_demo_shop?logo=travis&style=for-the-badge)](https://www.travis-ci.com/Bryg9/selenium_python_demo_shop)
 
 # How to run this project on Ubuntu 20.04.1
 ## Prepare your environment:
