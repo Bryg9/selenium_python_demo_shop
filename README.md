@@ -1,7 +1,7 @@
 # About project
 This simple project includes automation tests of the online demo shop: [<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://images.ctfassets.net/czwjnyf8a9ri/1v5ZWsPr8uNv6sj3qnL4MW/aeb69cbdfade387fd9db95aec0b12891/vector-sauce-bot-python_s.png?fm=webp&amp;w=800" width="100" height="50">](https://www.saucedemo.com/)  
 
-The structure of the project was created with using **Selenium** and **Python**.  
+The structure of the project is based on **Page Object Model** and with using **Selenium** + **Python**.  
 
 Tests are checking ordering process (e2e testing), and testing login credentials.  
 
